@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Sistema de Estoque</title>
+<link rel="stylesheet" href="main_style.css">
+<link rel="stylesheet" href="index.html">
+<style>
+
+/*fontes*/
+@font-face {
+  font-family: 'Kenao';
+  src: url('./assets/fonts/Kenao.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;}
+
+@font-face {
+  font-family: 'Poiret One';
+  src: url('./assets/fonts/PoiretOne.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('./assets/fonts/Quicksand.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;}
+
+@font-face {
+  font-family: 'Cantarell';
+  src: url('./assets/fonts/Cantarell.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;}
+
+@font-face {
+  font-family: 'Rosario';
+  src: url('./assets/fonts/Rosario.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;}
+  
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<!-- header -->
+  <div>
+  <h1>Flora Acessórios</h1>
+  </div>
+
+<!-- menu de navegação -->
+  <div id="nav">
+  <nav>
+  <a href="index.html">Consultas</a> |
+  <a href="entradas.html">Entradas</a> |
+  <a href="saidas.html">Saídas</a> |
+  <a href="funcionarios.html">Funcionários</a>
+  </nav>
+  </div>
+
+<!-- divisória top -->
+  <div class="divider-top"></div>
+
+<!-- descrição da página -->
+  <div id="main-wrap">
+  <div class="paragraph">
+  <h2>Saídas de Estoque</h2>
+  <p>Esse é o painel onde você pode <b>retirar</b> produtos que saem no estoque.</p>
+  </div>
+
+<!-- formulário -->
+  <form>
+  <label class="form">Nome do Produto:</label><br>
+  <input type="text" class="wsite-form-input"><br>
+
+  <label class="form">ID do Produto:</label><br>
+  <input type="text" class="wsite-form-input"><br>
+
+  <label class="form">Quantidade:</label><br>
+  <input type="number" class="wsite-form-input" min="0"><br>
+
+  <label class="form">CPF do Funcionário:</label><br>
+  <input type="number" class="wsite-form-input" min="0"><br>
+
+  <br>
+
+  <button class="wsite-button">
+  <span class="wsite-button-inner">Salvar</span>
+  </button>
+  </form>
+  </div>
+
+<!-- divisória bottom -->
+  <div class="divider-bottom"></div>
+
+<!-- nota de rodapé -->
+  <style>
+    #footer-wrap {
+    text-align: center;
+    padding: 0px 0px 0px 40px;}
+  </style>
+  
+  <div id="footer-wrap">
+  <div class="paragraph"> 
+  <p>2025 - Sistema de Estoque | Projeto UNIVESP</p>
+  </div>
+
+</body>
+</html>
