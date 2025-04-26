@@ -6,6 +6,7 @@ use db_estoque;
 CREATE TABLE PRODUTO (
     id INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(255) NOT NULL,
+    categoria VARCHAR(55) NOT NULL,
     valor_un DECIMAL(10, 2) NOT NULL,
     quantidade_estoque INT NOT NULL DEFAULT 0,
     valor_total DECIMAL(10, 2) NOT NULL DEFAULT 0.00
